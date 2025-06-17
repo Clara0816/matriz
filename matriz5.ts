@@ -11,8 +11,8 @@ for (let i = 0; i < 3; i++){
  matriz[i] = new Array(3);
 
  for (let j = 0; j < 3; j++){
-    let nome: number = teclado(`Digite o número que vai estar no endereço [${i}, ${j}] da matriz:`);
-    matriz[i][j] = nome;
+    let numero: number = teclado(`Digite o número que vai estar no endereço [${i}, ${j}] da matriz:`);
+    matriz[i][j] = numero;
  }
 }
 console.log(matriz);
